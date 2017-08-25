@@ -12,6 +12,7 @@
          <html <?php language_attributes(); ?> class="no-js">
             <!--<![endif]-->
             <head>
+			   <meta name="cloudpiercer-verification" content="505736d10ccd960f94773fd55c55b8a4">
                <meta charset="utf-8">
                <?php // Google Chrome Frame for IE ?>
                <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -45,10 +46,10 @@
                   <div id="inner-header" class="wrap clearfix">
                      <div class="top-nav">
                         <div class="row">
-                           <div class="col-md-2"></div>
-                           <div class="col-md-2 hd-logo animated bounceInLeft"><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/library/images/drife-logo.png"></a></div>
-                           <div class="col-md-2"></div>
-                           <div id="test" class="col-md-6 d-navtop">
+                           <div class="col-md-2 col-sm-1"></div>
+                           <div class="col-md-2 col-sm-3 hd-logo animated bounceInLeft"><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/library/images/drife-logo.png"></a></div>
+                           <div class="col-md-2 col-sm-1"></div>
+                           <div id="test" class="col-md-6 col-sm-8 d-navtop">
                               <?php wp_nav_menu(array('menu'=>'Top Menu', 'menu_class' => 'nav nav-tabs nav-drife-top'));?>
                            </div>
                            <div class="logo-m-menu m-dis m-arrow">

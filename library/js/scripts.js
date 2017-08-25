@@ -332,14 +332,20 @@ $(document).ready(function(){
 
 /*=======================End Modal POPUP Modal in Wp-Menu=============================*/ 
 
-
+// Show modal
 $('#menu-item-387 a, .menu-item-387 a, #btn-show-modal').click(function(){
     $('.row_popcontactus').fadeIn();
 });
+// Button close modal
 $('#btn-close-modal').click(function(){
     $('.row_popcontactus').fadeOut();
 });
-
+// Close modal outside box
+$(document).click(function (e) {
+    if ($(e.target).is('.row_popcontactus')) {
+        $('.row_popcontactus').fadeOut();
+    }
+});
 
 /*=======================Add Menu POPUP Modal in Wp-Menu==============================*/
 

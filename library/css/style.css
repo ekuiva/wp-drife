@@ -16,8 +16,8 @@ a:hover, a:active, a:focus {
   outline: 0;
   text-decoration: none;
 }
-input::-moz-focus-inner { 
-  border: 0; 
+input::-moz-focus-inner {
+  border: 0;
 }
 .nopadding {
     padding: 0 !important;
@@ -137,14 +137,14 @@ div.wpcf7-response-output {
     left: 0;
     z-index: 0;
 }
-.prlx-2 {
-    background: url('../images/vector2.png') 100% 65% / cover no-repeat fixed;
-    background-size: 100%;
-}
-.prlx-3 {
-    background: url('../images/vector3.png') 100% 65% / cover no-repeat fixed;
-    background-size: 100%;
-}
+/*.prlx-2 {*/
+    /*background: url('../images/vector2.png') 100% 65% / cover no-repeat fixed;*/
+    /*background-size: 100%;*/
+/*}*/
+/*.prlx-3 {*/
+    /*background: url('../images/vector3.png') 100% 65% / cover no-repeat fixed;*/
+    /*background-size: 100%;*/
+/*}*/
 .txt-bg1 {
     z-index: 1;
     width: 100%;
@@ -271,7 +271,7 @@ ul.drop-drife {
     color: #fff;
 }
 .img-mouse-sprite{
-    background: url('../images/mouse_sprite.png');
+    background: url('images/mouse_sprite.png');
     width: 30px;
     height: 52px;
     -webkit-animation: scrolly 1s steps(7) infinite;
@@ -858,7 +858,7 @@ img>.attachment-120x120 {
     color: #f44336;
 }
 a:focus, a:hover {
-    color: #000;  
+    color: #000;
     text-decoration: none;
 }
 .load_more a:hover, img:hover {
@@ -968,7 +968,7 @@ span.wpcf7-not-valid-tip {
     overflow: auto;
     z-index: 25;
 }
- 
+
 /* Start Landing Page Get in Touch Desktop */
 .col_popred-page {
     background-image: linear-gradient(133deg, #f44336, #f46536);
@@ -1027,13 +1027,13 @@ span.wpcf7-not-valid-tip {
 }
 /* Mobile 1920px bg-contact-us */
 @media(max-width: 1920px){
-    .bg-contact-us { 
+    .bg-contact-us {
         background-size: 100%;
     }
 }
 /* Mobile 1280px bg-contact-us */
 @media(max-width: 1280px){
-    .bg-contact-us { 
+    .bg-contact-us {
         background-size: 105%;
     }
 }
@@ -1054,13 +1054,13 @@ span.wpcf7-not-valid-tip {
         padding-top: 65px;
         background-size: 107%;
         background-position-x: -5px;
-    } 
+    }
 }
 /* Mobile 640px bg-contact-us */
 @media(max-width: 640px){
     .bg-contact-us {
         background-size: 117%;
-        background-position-x: -5px;  
+        background-position-x: -5px;
     }
 }
 /* Mobile 480px bg-contact-us */
@@ -1070,7 +1070,7 @@ span.wpcf7-not-valid-tip {
         padding-top: 56px;
         background-size: 701px;
         background-position-x: -161px;
-    } 
+    }
 }
 /* End Button Contact us */
 
@@ -1573,7 +1573,7 @@ div.img-works:hover .hover-red {
     color: red;
     font-size: 12px;
 }
-}
+
 *[class^="bg-down"] {
     position: absolute;
     width: 100%;
@@ -1756,8 +1756,8 @@ div.img-works:hover .hover-red {
     color: #000000;
 }
 .share-and-tags-space {
-    margin-top: 75px; 
-    margin-bottom: 40px;   
+    margin-top: 75px;
+    margin-bottom: 40px;
 }
 
 /*== END SHARE DESKTOP AND TAGS DESKTOP ==*/
@@ -1850,7 +1850,7 @@ div.img-works:hover .hover-red {
 }
 /*== Responsive 768px ==*/
 @media(max-width: 768px){
-    .portfolio-we-do-item {    
+    .portfolio-we-do-item {
         margin-right: 0;
         margin-top: 3em;
         padding-bottom: 15px;
@@ -1858,7 +1858,7 @@ div.img-works:hover .hover-red {
 }
 /*== Responsive 480px ==*/
 @media(max-width: 480px){
-    .portfolio-we-do-item {    
+    .portfolio-we-do-item {
         border-bottom: 2px solid rgba(0, 0, 0, .1);
     }
 }
@@ -1971,7 +1971,7 @@ div.img-works:hover .hover-red {
 /*== Responsive 480px ==*/
 @media(max-width: 480px){
     .portfolio-short-desc-feature {
-       width: 100%; 
+       width: 100%;
     }
 }
 .portfolio-title-feature{
@@ -2055,7 +2055,7 @@ div.img-works:hover .hover-red {
     }
 }
 @media(max-width: 480px){
-    .portfolio-short-desc-client-bawah { 
+    .portfolio-short-desc-client-bawah {
         width: auto;
     }
 }
@@ -2880,7 +2880,7 @@ div.img-works:hover .hover-red {
         width: 10em;
     }
 }
-@media(min-width: 980px) {
+@media(min-width: 900px) {
     .slider-client-for-phone {
         display: none !important;
     }
@@ -2905,7 +2905,7 @@ div.img-works:hover .hover-red {
 }
 
 /* Responsive Media 800px (Untuk Mouse Kecil)  */
-@media(min-width: 800px) {
+@media(min-width: 800px) and (max-width: 800px) {
     .img-mouse-sprite {
         margin-left: 358px;
     }
@@ -3110,7 +3110,7 @@ div.img-works:hover .hover-red {
     .share-and-tags-space {
         margin-top: 20px;
     }
-    
+
     .portfolio-we-do-item h4 {
         height: 42px;
         font-size: 15px;
@@ -3146,7 +3146,7 @@ div.img-works:hover .hover-red {
         margin-bottom: 40px;
     }
     /*== END SINGLE PORTFOILIO MOBILE===*/
-    
+
     .darr {
         display: none;
     }
@@ -3594,7 +3594,7 @@ div.img-works:hover .hover-red {
 @media(min-width: 768px){
     .mg_ctsfoot img {
         width: 100%;
-    }  
+    }
 
     .form-input-names {
         margin-top: 21px;
